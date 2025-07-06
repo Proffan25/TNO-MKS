@@ -4,11 +4,12 @@ country_event = {
 	id = 600000
 	allow_multiple_instances = yes
 	trigger = {
-	ai = no
-	NOT = {
-		OR = {
-			#add tags of countries with specific events here
-			has_leader = "Sam Hyde"
+		ai = no
+		NOT = {
+			OR = {
+				#add tags of countries with specific events here
+				has_leader = "Sam Hyde"
+			}
 		}
 	}
 	mean_time_to_happen = {
@@ -33,11 +34,12 @@ country_event = {
 	id = 600001
 	allow_multiple_instances = yes
 	trigger = {
-	ai = no
-	NOT = {
-		OR = {
-			#add tags of countries with specific events here
-			has_leader = "Diego Blanco"
+		ai = no
+		NOT = {
+			OR = {
+				#add tags of countries with specific events here
+				has_leader = "Diego Blanco"
+			}
 		}
 	}
 	mean_time_to_happen = {
